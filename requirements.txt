@@ -1,4 +1,11 @@
+# requirements.txt
 Flask==2.2.2
 gunicorn==20.1.0
+
+# Pin the build tools to known stable versions
+setuptools==65.5.0
+wheel==0.38.4
+
+# Pin the ML libraries to compatible versions
 numpy==1.24.4
 scikit-learn==1.2.2
